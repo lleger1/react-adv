@@ -1,0 +1,68 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "Placeholder": "Luis",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "First Name is required"
+      },
+      {
+        "type": "minLength",
+        "value": "5",
+        "message": "Should be at least 5 characters"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "Placeholder": "Leger",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "last Name is required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "Placeholder": "email@algo.com",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "Email is required"
+      },
+      {
+        "type": "email",
+        "message": "Should be a valid email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "option": [
+      { "id": 1, "label": "League of Legends" },
+      { "id": 2, "label": "Counter Strike" },
+      { "id": 3, "label": "Fortnite" },
+      { "id": 4, "label": "Overwatch" }
+    ],
+    "validations": [
+      {
+        "type": "required",
+        "message": "Favorite Game is required"
+      }
+    ]
+  }
+]
